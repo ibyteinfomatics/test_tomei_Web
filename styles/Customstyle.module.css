@@ -1,0 +1,158 @@
+.page_wrapper{
+  padding: 2em 0;
+}
+.form_title {
+    text-align: center;
+    background-color: #c5dcfa;
+    font-size: 1.3125em;
+    color: #000;
+    padding: 0.2em 0;
+    /* font-weight: 600; */
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+.inner_wrapper {
+    max-width: 50em;
+    margin: auto;
+}
+.create_account p{
+	font-size: 0.85em;
+	color: #000;
+	font-weight: 600;
+}
+.tab_list{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+    
+}
+.tab_list li .circle{
+    width: 3em;
+    height: 3em;
+    border: 1px solid #006bce;
+    color: #006bce;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tab_list li.Active .circle{
+    background: #cde7ff;
+}
+.tab_list li::after {
+    content: " ";
+    background-image: url('../public/border.png');
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: 7em;
+    width: 7em;
+    height: 0.125em;
+}
+.tab_list li a {
+    text-decoration: none;
+    color: #006bce;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+.step_data ul{
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.step_data ul li.Active{
+	color: #006bce;
+}
+.step_data ul li{
+	font-size: 0.85em;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	max-width: 7em;
+	width: 100%;
+	text-align: center;
+}
+.step_data ul li span{
+	display: flex;
+	justify-content: center;
+}
+.step_data li:nth-child(1){
+	margin-left: -1em;
+}
+.step_data li:nth-child(4){
+	margin-right: -0.2em;
+}
+/* .step_data li:nth_child(5){
+	margin-right: -1em;
+} */
+.tab_list li:nth-last-child(1)::after {
+    content: "";
+    background-image: none;
+}
+ul.tab_list li {
+    position: relative;
+}
+.profile_upload label {
+    color: #000;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.profile_upload {
+    position: relative;
+}
+.Input input {
+    border-radius: 0.75em;
+}
+.proifle_coln_right .Input {
+    margin-bottom: 1em;
+}
+.proifle_coln_right .Input label{
+	color: #c7c7c7;
+	font-size: 1em;
+	font-weight: 600;
+}
+.input_type{
+    display: none;
+}
+/* input type_file{
+    display: none;
+}  */
+.btn_style-1{
+	text-align: right;
+}
+.btn_style_1 button {
+    background: #c5dcfa;
+    font-size: 1em;
+    /* font-weight: 600; */
+    color: #0a3977;
+    border-radius: 0.5em;
+    margin-left: 30.69em;
+    border:1px solid transparent;
+    line-height: 2em;
+    min-width: 10em;
+    padding: 0.15em 1.1em;
+}
+.profile_upload img {
+    width: 100%;
+}
+section.page_wrapper {
+    padding: 2em 0;
+}
+.btn_style_1 svg {
+    margin-left: 1em;
+}
+.container{
+	max-width: 70em;
+	width: 100%;
+    padding: 2em 0 ;
+}
