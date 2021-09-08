@@ -1,0 +1,138 @@
+@media screen and (max-width: 840px){
+	.inner-wrapper{
+		max-width: 40em;
+	}
+	.tab-list li::after{
+		width: 4.38em;
+		overflow-x: hidden;
+	}
+	.profile-upload{
+		max-width: 5em;
+		margin: auto;
+	}
+}
+@media screen and (max-width: 640px){
+	.tab-list li::after{
+		width: 3.85em;
+	}
+}
+@media screen and (max-width: 635px){
+	.tab-list li .circle{
+		width: 2.5em;
+		height: 2.5em;
+		font-size: 1.2em;
+	}
+	.tab-list li::after{
+		width: 5.2em;
+	}
+	/*.Logo {
+    	margin: 1em 0 2em 0;
+	}*/
+	.inner-wrapper{
+		max-width: 100%;
+		padding: 0 1em;
+	}
+}
+@media screen and (max-width: 625px){
+	.tab-list li::after{
+		width: 5em;
+	}
+}
+@media screen and (max-width: 600px){
+	.tab-list li::after{
+		width: 4.5em;
+	}
+}
+@media screen and (max-width: 667px){
+	.tab-list li::after{
+		width: 4.3em;
+	}
+}
+@media screen and (max-width: 768px){
+	.step-data ul li{
+		display: none;
+	}
+}
+@media screen and (max-width: 580px){
+	.tab-list li::after {
+    	width: 4.35em;
+	}
+	.step-data ul li{
+		display: none;
+	}
+}
+@media screen and (max-width: 576px){
+	.tab-list li::after {
+    	width: 4.35em;
+	}
+}
+@media screen and (max-width: 568px){
+	.tab-list li::after {
+    	width: 4.2em;
+	}
+}
+@media screen and (max-width: 562px){
+	.tab-list li::after {
+    	width: 4.2em;
+	}
+}
+@media screen and (max-width: 552px){
+	.tab-list li::after {
+    	width: 11.2vw;
+	}
+}
+@media screen and (max-width: 520px){
+	.tab-list li::after {
+    	width: 10.5vw;
+	}
+}
+@media screen and (max-width: 510px){
+	.tab-list li::after {
+    	width: 10vw;
+	}
+}
+@media screen and (max-width: 480px){
+	.tab-list li::after {
+    	width: 9vw;
+	}
+}
+@media screen and (max-width: 460px){
+	.tab-list li::after {
+    	width: 8vw;
+	}
+}
+@media screen and (max-width: 432px){
+	.tab-list li::after {
+    	width: 7.4vw;
+	}
+}
+@media screen and (max-width: 420px){
+	.tab-list li::after {
+    	width: 7vw;
+	}
+}
+@media screen and (max-width: 410px){
+	.tab-list li::after {
+    	width: 6.5vw;
+	}
+}
+@media screen and (max-width: 399px){
+	.tab-list li::after {
+    	width: 6vw;
+	}
+}
+@media screen and (max-width: 391px){
+	.tab-list li::after {
+    	width: 5.7vw;
+	}
+}
+@media screen and (max-width: 383px){
+	.tab-list li::after {
+    	width: 5.5vw;
+	}
+}
+@media screen and (max-width: 378px){
+	.tab-list li::after {
+    	width: 4.7vw;
+	}
+}

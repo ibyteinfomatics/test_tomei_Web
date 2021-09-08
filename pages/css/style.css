@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+font-family: 'Open Sans', sans-serif;
+html body{
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1vw; 
+}
+/*@media screen and (min-width: 100em){
+    html body{
+        font-size: 1vw; 
+    }
+    html{
+        font-size: 1vw;  
+    }
+}*/
+.Logo {
+    text-align: center;
+    max-width: 7em;
+    margin: auto;
+    padding-bottom: 1em;
+}
+.Logo img{
+    width: 100%;
+}
+.profile-upload label {
+    max-width: 5em;
+}
+html body{
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+@media screen and (min-width: 100em){
+    html body{
+        font-size: 1vw; 
+    }
+    html{
+        font-size: 1vw;  
+    }
+}
+.form-title {
+    text-align: center;
+    background-color: #c5dcfa;
+    font-size: 1.3125em;
+    color: #000;
+    padding: 0.2em 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+}
+.inner-wrapper {
+    max-width: 50em;
+    margin: auto;
+}
+.create-account p{
+	font-size: 0.85em;
+	color: #000;
+	font-weight: 600;
+}
+.tab-list{
+	padding-left: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+.tab-list li .circle{
+    width: 3em;
+    height: 3em;
+    border: 1px solid #006bce;
+    color: #006bce;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.tab-list li.Active .circle{
+    background: #cde7ff;
+}
+.tab-list li::after {
+    content: " ";
+    background-image: url('../images/border.png');
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-size: 7em;
+    width: 7em;
+    height: 0.125em;
+}
+.tab-list li a {
+    text-decoration: none;
+    color: #006bce;
+    font-size: 1.7em;
+    font-weight: 900;
+}
+.step-data ul{
+	list-style: none;
+	padding-left: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.step-data ul li.Active{
+	color: #006bce;
+}
+.step-data ul li{
+	font-size: 0.85em;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+	max-width: 7em;
+	width: 100%;
+	text-align: center;
+}
+.step-data ul li span{
+	display: flex;
+	justify-content: center;
+}
+.step-data li:nth-child(1){
+	margin-left: -1em;
+}
+.step-data li:nth-child(4){
+	margin-right: -0.2em;
+}
+.step-data li:nth-child(5){
+	margin-right: -1em;
+}
+.tab-list li:nth-last-child(1)::after {
+    content: "";
+    background-image: none;
+}
+ul.tab-list li {
+    position: relative;
+}
+.profile-upload label {
+    color: #000;
+    font-weight: 700;/*
+    position: absolute;*/
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.profile-upload {
+    position: relative;
+}
+.Input input {
+    border-radius: 0.75em;
+}
+.proifle-coln-right .Input {
+    margin-bottom: 1em;
+}
+.proifle-coln-right .Input label{
+	color: #c7c7c7;
+	font-size: 1em;
+	font-weight: 600;
+}
+input[type="file"] {
+    display: none;
+}
+.btn-style-1{
+	text-align: right;
+}
+.btn-style-1 button {
+    background: #c5dcfa;
+    font-size: 1em;
+    font-weight: 600;
+    color: #0a3977;
+    border-radius: 0.5em;
+    line-height: 2em;
+    min-width: 10em;
+    padding: 0.15em 1.1em;
+}
+.profile-upload img {
+    width: 100%;
+}
+section.page-wrapper {
+    padding: 2em 0;
+}
+.btn-style-1 svg {
+    margin-left: 1em;
+}
+.container{
+	max-width: 70em;
+	width: 100%;
+}
